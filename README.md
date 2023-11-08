@@ -56,7 +56,7 @@ The dataset was divided into two subsets, the training set (80%) and the test se
 With the data prepared, three linear models were created, fine-tuned, tested, and compared. These models include:
 1.	Simple Linear Regression
 2.	Elastic Net
-3.	Linear Support Vector Regression
+3.	Linear Support Vector Regression. 
 The performance of these models was assessed using specific metrics, which included:
 Root-Mean Squared Error (RMSE): A measure of the model's prediction accuracy.
 Coefficient of Determination (r2): Indicates the proportion of the variance in the dependent variable that is predictable from the independent variables.
