@@ -1,4 +1,3 @@
-
 # Introduction
 This project showcases my data analysis, visualization, modeling, and machine learning skills, all of which I have developed through my data analytics track with Python on Udemy. The problem statement for this project is based on an imaginary scenario I devised after discovering a relevant dataset. I deliberately chose this dataset as it aligns with my previous experience in a healthcare setting during my university studies.
 
