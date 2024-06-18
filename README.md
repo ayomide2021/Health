@@ -8,7 +8,9 @@ In this project, I aim to apply the knowledge and skills I've gained to address 
 •	Data transformation, manipulation, and cleaning with Pandas
 •	Version Control
 
-
+# Tech Used
+•	Python 
+•	Machine learning
 
 # Problem Statement
 A healthcare solutions provider is seeking to develop a straightforward model for predicting the total costs associated with various health-related factors, including age, illness severity, patient disposition, and the type of treatment administered during a hospital stay. To achieve this, the company's research team has enlisted our analytics team to create, fine-tune, test, and compare several linear regression models. The goal is to identify the best-performing model based on key evaluation metrics, including the root-mean-squared error (RMSE), coefficient of determination (r2), and mean absolute percentage error (MAPE). This project aims to address the company's need for an accurate cost prediction tool, ultimately improving its healthcare services and resource allocation.
