@@ -1,12 +1,12 @@
-# Introduction
-This project showcases my data analysis, visualization, modeling, and machine learning skills, all of which I have developed through my data analytics track with Python on Udemy. The problem statement for this project is based on an imaginary scenario I devised after discovering a relevant dataset. I deliberately chose this dataset as it aligns with my previous experience in a healthcare setting during my university studies.
+# Executive Summary
+A healthcare solutions provider is facing challenges in accurately predicting the total costs associated with various health-related factors during hospital stays. These factors include patient age, illness severity, patient disposition, and the type of treatment administered. Accurate cost predictions are crucial for effective resource allocation, financial planning, and improving overall service quality. However, the existing methods for cost prediction are not providing the desired accuracy and reliability, leading to inefficiencies and potential financial losses.
+### Key take aways:
+•	Among the tested models, the Simple Linear Regression model outperformed the Elastic Net and Linear Support Vector Regression models in terms of predictive accuracy and computational efficiency.
 
-In this project, I aim to apply the knowledge and skills I've gained to address this fictional healthcare scenario and demonstrate how data analytics and machine learning can be valuable tools in this context. By doing so, I intend to highlight the practical applications of the techniques I've learned and their relevance in real-world situations.
-# Skills
-•	Statistical Analysis with NumPy and SciPy
-•	Machine Learning with Scikit-Learn
-•	Data transformation, manipulation, and cleaning with Pandas
-•	Version Control
+•	Short-Term: Implement the Simple Linear Regression model for cost prediction due to its high performance in our tests and its straightforward nature, which makes it easy to interpret and apply.
+
+•	Long-Term: Explore and utilize more complex models like Random Forest and Decision Trees to improve predictive accuracy in future analyses.
+
 
 # Tech Used
 •	Python 
