@@ -23,11 +23,8 @@ The goal is to identify the most accurate cost prediction model to enhance the p
 
 
 # Tech Used
-•	Python 
-•	Machine learning
+•	Python: Pandas, Matplotlib, Numpy, sklearn
 
-# Problem Statement
-A healthcare solutions provider is seeking to develop a straightforward model for predicting the total costs associated with various health-related factors, including age, illness severity, patient disposition, and the type of treatment administered during a hospital stay. To achieve this, the company's research team has enlisted our analytics team to create, fine-tune, test, and compare several linear regression models. The goal is to identify the best-performing model based on key evaluation metrics, including the root-mean-squared error (RMSE), coefficient of determination (r2), and mean absolute percentage error (MAPE). This project aims to address the company's need for an accurate cost prediction tool, ultimately improving its healthcare services and resource allocation.
 
 # Data Source/Collection
 The dataset used in this project was obtained from an online source on Udemy. I downloaded the dataset in CSV format and subsequently imported it into Python using the Pandas library. The dataset was then subjected to a series of data cleaning, analysis, and visualization steps. In its raw form, the dataset comprised 67,928 rows and 32 columns.
