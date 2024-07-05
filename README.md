@@ -7,6 +7,20 @@ A healthcare solutions provider is facing challenges in accurately predicting th
 
 •	Long-Term: Explore and utilize more complex models like Random Forest and Decision Trees to improve predictive accuracy in future analyses.
 
+# Business Problem
+A fictional healthcare solutions provider needs a robust and accurate model to predict the total costs of hospital stays based on multiple health-related factors. The current methods are inadequate, resulting in suboptimal resource allocation and financial planning. There is a critical need to develop, test, and compare several predictive models to identify the most effective one. This will help the provider enhance its cost prediction capabilities, leading to better financial management and improved healthcare services.
+
+# Objective
+The goal is to identify the most accurate cost prediction model to enhance the provider's healthcare services and resource allocation. The goal is broken down into smaller tasks as follows:
+
+•	Develop Multiple Predictive Models: Create and fine-tune different linear regression models, including Simple Linear Regression, Elastic Net, and Linear Support Vector Regression (SVR).
+
+•	Evaluate Model Performance: Assess the models using key evaluation metrics such as Root-Mean Squared Error (RMSE), Coefficient of Determination (r2), and Mean Absolute Percentage Error (MAPE).
+
+•	Compare and Select the Best Model: Identify the best-performing model based on accuracy, computational efficiency, and ease of interpretation.
+
+•	Improve Cost Prediction: Implement the selected model to enhance the accuracy of cost predictions, aiding in better resource allocation and financial planning
+
 
 # Tech Used
 •	Python 
