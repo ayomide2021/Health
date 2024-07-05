@@ -26,12 +26,10 @@ The goal is to identify the most accurate cost prediction model to enhance the p
 •	Python: Pandas, Matplotlib, Numpy, sklearn
 
 
-# Data Transformation/Cleaning
+# Data Transformation
 Data cleaning and transformation were executed within a Jupyter Notebook using the Pandas library. To ensure the dataset's integrity, each column was meticulously inspected through a for-loop, confirming the absence of empty cells or errors.
 In some columns, categorical variables were present. To make these columns compatible with machine learning algorithms, the categorical variables were converted into numerical floats. This transformation was achieved using a Label Encoder, which assigns a unique numerical label to each category, thereby enabling the inclusion of these features in the modelling process.
 
-
-By carrying out these data cleaning and transformation steps, the dataset was prepared for subsequent analysis and modelling, ensuring data quality and compatibility with the chosen machine learning techniques.
 
 # Exploratory Data Analysis (EDA)
 As part of the project, I conducted an extensive Exploratory Data Analysis (EDA) and utilized statistical data visualization techniques to gain insights from the dataset. The key steps in this phase included:
@@ -57,7 +55,6 @@ By conducting EDA and employing these statistical data visualization methods, I 
 ![O5](https://github.com/ayomide2021/Health/assets/83126882/434fbe3f-77ad-4f67-900a-72af4ab4dc3c)
 
 # Methodology
-The project's workflow included the following steps:
 
 ## Data Preparation
 •	The dataset was divided into training (80%) and test (20%) sets using the train_test_split function from the sklearn.model_selection library.
@@ -101,6 +98,7 @@ Prediction times were recorded to ensure that computational efficiency met the c
 
 # Recommendations
 •	Short-Term: Implement the Simple Linear Regression model for cost prediction due to its high performance in our tests and its straightforward nature, which makes it easy to interpret and apply.
+
 •	Long-Term: Explore and utilize more complex models like Random Forest and Decision Trees to improve predictive accuracy in future analyses.
 By implementing these recommendations, the healthcare provider can achieve better cost predictions, enhancing resource allocation and overall service quality.
 
