@@ -85,13 +85,25 @@ Performance of the models was assessed using key metrics:
 Prediction times were recorded to ensure that computational efficiency met the client's requirements.
 
 
-# Analysis
-Based on the metrics, the simple linear regression was chosen as the best model for our client as it outperformed the other models in three of four metrics. 
+# Results and Insights
 
-# Conclusions/recommendations
+## Findings
+•	The exploratory data analysis identified that the length of hospital stay had the most substantial correlation with total costs.
 
-1.	The exploratory data analysis revealed that the length of hospital stay exhibited the most substantial correlation with total costs.
-2.	Emergency admissions accounted for over half of the total hospital admissions.
-3.	The average length of hospital stay is approximately 5 days.
-4.	The choice of the simple linear regression model for our client was made because it outperformed the other models.
-5.	While simple linear regression models offer high interpretability and ease of understanding, they tend to be generally less accurate compared to complex models like Random Forest and Decision Trees. Future analyses for our client will target the utilization of more complex models to improve predictive accuracy.
+•	Emergency admissions constituted over half of the total hospital admissions.
+
+•	The average length of hospital stay was approximately five days.
+
+## Model Comparison and Selection
+•	Among the tested models, the Simple Linear Regression model outperformed the Elastic Net and Linear Support Vector Regression models in terms of predictive accuracy and computational efficiency.
+
+•	Despite the simplicity of the Simple Linear Regression model, which offers high interpretability and ease of understanding, it generally tends to be less accurate than more complex models such as Random Forest and Decision Trees.
+
+# Recommendations
+•	Short-Term: Implement the Simple Linear Regression model for cost prediction due to its high performance in our tests and its straightforward nature, which makes it easy to interpret and apply.
+•	Long-Term: Explore and utilize more complex models like Random Forest and Decision Trees to improve predictive accuracy in future analyses.
+By implementing these recommendations, the healthcare provider can achieve better cost predictions, enhancing resource allocation and overall service quality.
+
+# Next Steps
+Implementation of Random Forest and Decision Trees to improve predictive accuracy in future analyses. 
+
